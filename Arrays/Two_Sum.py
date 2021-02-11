@@ -11,9 +11,12 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
     hashMap = {}
 
     for i, num in enumerate(nums):
+        # Complement is the number we're looking for
         complement = target - num
+        # If we have already seen the complement, return the indices
         if complement in hashMap:
             return [i, hashMap[complement]]
+        # We have not seen the complement, add the current number to the hashMap with its indice
         hashMap[num] = i
 
     return []
