@@ -38,4 +38,4 @@ def maxSubArray(self, nums: List[int]) -> int:
     return globalMax
 
 # Time Complexity: O(N)
-# Space Complexity: O(N)
+# Space Complexity: O(1)
