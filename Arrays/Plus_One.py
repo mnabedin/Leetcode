@@ -5,6 +5,7 @@
 # You may assume the integer does not contain any leading zero, except the number 0 itself.
 
 # Leetcode 66: https://leetcode.com/problems/plus-one/
+# Difficulty: Easy
 
 def plusOne(self, digits: List[int]) -> List[int]:
     i = len(digits) - 1

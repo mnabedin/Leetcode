@@ -6,6 +6,7 @@
 # Open brackets must be closed in the correct order.
 
 # Leetcode 20: https://leetcode.com/problems/valid-parentheses/
+# Difficulty: Easy
 
 def isValid(self, s: str) -> bool:
     stack = []

@@ -5,6 +5,7 @@
 # You can return the answer in any order.
 
 # Leetcode 1: https://leetcode.com/problems/two-sum/
+# Difficulty: Easy
 
 def twoSum(self, nums: List[int], target: int) -> List[int]:
     hashMap = {}

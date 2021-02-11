@@ -1,4 +1,3 @@
-
 # Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
 # Example 1:
@@ -18,6 +17,9 @@
 
 # Input: nums = [-1]
 # Output: -1
+
+# Leetcode 53: https://leetcode.com/problems/maximum-subarray/
+# Difficulty: Easy
 
 # Kadane's Algorithm
 def maxSubArray(self, nums: List[int]) -> int:

@@ -9,6 +9,7 @@
 # return 2.
 
 # Leetcode 387: https://leetcode.com/problems/first-unique-character-in-a-string/
+# Difficulty: Easy
 
 def firstUniqChar(self, s: str) -> int:
 
