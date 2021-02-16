@@ -25,3 +25,6 @@ def maxProfit(self, prices: List[int]) -> int:
         result = max(result, price - minAmount)
 
     return result
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)

@@ -25,3 +25,6 @@ def moveZeroes(self, nums: List[int]) -> None:
             # Swap the current element with the element at nonZeroIndex and increment it
             nums[i], nums[nonZeroIndex] = nums[nonZeroIndex], nums[i]
             nonZeroIndex += 1
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)

@@ -29,3 +29,6 @@ def pivotIndex(self, nums: List[int]) -> int:
         leftSum += v
 
     return -1
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)
