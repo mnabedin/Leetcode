@@ -9,6 +9,9 @@
 # You must do this in-place without making a copy of the array.
 # Minimize the total number of operations.
 
+# Leetcode 283: https://leetcode.com/problems/move-zeroes/
+# Difficulty: Easy
+
 def moveZeroes(self, nums: List[int]) -> None:
     """
     Do not return anything, modify nums in-place instead.
