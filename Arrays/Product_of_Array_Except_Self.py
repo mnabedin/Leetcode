@@ -32,4 +32,4 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 
 
 # Time Complexity: O(N)
-# Space ComplexityL O(1) as output array does not count
+# Space Complexity: O(1) as output array does not count
