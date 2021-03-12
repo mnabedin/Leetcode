@@ -19,7 +19,7 @@ def mergeSort(nums: List[int]) -> List[int]:
             sortedNums += [left[i]]
             i += 1
         else:
-            sortedNums += [right[i]]
+            sortedNums += [right[j]]
             j += 1
 
     # We've exhausted one of the lists so add the rest of the items from the other list
