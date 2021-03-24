@@ -15,7 +15,6 @@
 # Solution: Sort the list as you iterate through it by placing the elements in its index + 1 position
 # Realize that the answer must be within the range of 0 to the length of the list + 1
 
-
 def firstMissingPositive(self, nums: List[int]) -> int:
     i, j = 0, len(nums)
 
