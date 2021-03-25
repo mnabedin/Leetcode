@@ -22,7 +22,8 @@ def isValid(self, s: str) -> bool:
             if topElement != mapping[bracket]:
                 return False
         # We encountered an opening bracket, append to stack
-        stack.append(bracket)
+        else:
+            stack.append(bracket)
 
     # The stack needs to be empty if we have valid pairs of parenthesis
     return not stack
