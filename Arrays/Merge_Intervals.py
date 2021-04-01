@@ -18,7 +18,7 @@ def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         return []
 
     i = 0
-    intervals.sort(key=lambda x: x[0])
+    intervals = sorted(intervals, key=lambda x: x[0])
 
     while i < len(intervals) - 1:
         # If the ending of the ith interval is greater than or equal to the starting of the i + 1th interval, we can merge
