@@ -18,6 +18,9 @@
 # According to lexicographical rules "apple" > "app", because 'l' > '∅', where '∅' is defined as the blank character
 # which is less than any other character.
 
+# Leetcode 953: https://leetcode.com/problems/verifying-an-alien-dictionary/
+# Difficulty: Easy
+
 # Solution: Realize we only care about the letters that are different. Create a mapping of letter to index to
 # use for comparision. Iterate through two words at a time and compare them.
 
